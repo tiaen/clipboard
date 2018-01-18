@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClipBoard-Demo</title>
+    <style>
+    .copy-box{
+        width: 300px;
+        padding: 10px;
+        margin:0 auto;
+        border: 1px solid #ccc;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="copy-box">
+        <span class="copy-content">复制内容1,复制后按钮文本改变</span>
+        <br>
+        <button class="copy-btn copy-btn-success">复制</button>
+    </div>
+    <div class="copy-box">
+        <p class="copy-content">复制内容2，复制后按钮文本不变</p>
+        <button class="copy-btn">复制</button>
+    </div>
+    <div class="copy-box">
+        <input type="text" class="copy-content" value="复制内容3">
+        <button class="copy-btn copy-btn-success">复制</button>
+    </div>
+    <div class="copy-box">
+        <textarea name="" id="" cols="30" rows="10" class="copy-content"></textarea>
+        <button class="copy-btn">复制</button>
+    </div>
+    <div class="copy-box">
+        <textarea name="" id="" cols="30" rows="10" placeholder="复制后可以试着粘贴在这里"></textarea>
+    </div>
+    <script src="./clipboard.mini.js"></script>
+</body>
+
+</html>
